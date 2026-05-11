@@ -1,0 +1,39 @@
+# Dependencias
+**/node_modules/
+
+# Lock files (se generan automáticamente)
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Variables de entorno
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Builds
+**/dist/
+**/build/
+**/.vite/
+
+# Logs
+**/logs/
+*.log
+npm-debug.log*
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Oracle (datos locales del volumen Docker)
+oradata/
+
+# Subidas / coverage
+**/uploads/
+**/coverage/
+
+# Memoria local de Claude (no es código del proyecto)
+.claude/
